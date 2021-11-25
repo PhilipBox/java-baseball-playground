@@ -14,6 +14,7 @@ public class StringTest {
     }
 
     @Test
+    @DisplayName("[요구사항 1] split() method 활용")
     void split(){
         //  요구사항 1
         //  "1,2"을 ,로 split 했을 때 1과 2로 잘 분리되는지 확인하는 학습 테스트를 구현한다.
@@ -25,6 +26,7 @@ public class StringTest {
     }
 
     @Test
+    @DisplayName("[요구사항 2] substring() method 활용")
     void substring(){
         //  요구사항 2
         //  "(1,2)" 값이 주어졌을 때 String의 substring() 메소드를 활용해 ()을 제거하고 "1,2"를 반환하도록 구현한다.
@@ -35,7 +37,7 @@ public class StringTest {
     }
 
     @Test
-    @DisplayName("String를 index값으로 접근하여 character를 추출하기 위한 method")
+    @DisplayName("[요구사항 3] charAt() method 활용")
     void chatAt(){
         //  요구사항 3
         //  "abc" 값이 주어졌을 때 String의 charAt() 메소드를 활용해 특정 위치의 문자를 가져오는 학습 테스트를 구현한다.
